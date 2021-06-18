@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+     initial-scale=1.0,minimum scale=1.0,maximum-scale=1,user-scalabe=no">
+    <title>oioi</title>
+    <style>
+
+        body{
+            overflow-y:scroll;
+        }
+        #header {
+            background-image: url('garaake.jpg');
+            background-size: 100% auto;
+            display: block;
+            width:100%;
+        }
+        #nav {
+            width: 100%;
+            display: block;
+            float:left;
+            background-color: coral ;
+            
+        }
+        #aside {
+            width:10%;
+            float: left;
+            height: 600px;
+            display: block;
+            text-align: left;
+            background-color: blue;
+        }
+
+        #aside-menu{
+            float: left;
+            text-align: left;
+        }
+        .aisde-menu>li{
+            float:none;
+        }
+
+        #content {
+            width:80%;
+            float:left;
+            height: 300px;
+            background-color: gold;
+        }
+        #section{
+            display: block;
+            overflow-y: scroll;
+            width: 80%;
+            float: left;
+            height: 300px;
+            background-color: cyan;
+        }
+        #rightaside{
+            width:10%;
+            float:right;
+            height: 600px;
+            background-color: darkorchid;
+        }
+
+  
+        .main-title {
+            font-size: 30px;
+            font-weight: 600;
+            margin-left: 300px;
+            float: left;
+        }
+
+        .second-title {
+            font-size: 20px;
+            margin-right: 200px;
+            float: right;
+        }
+
+        li {
+            list-style: none;
+            font-style: italic;
+            float: left;
+            padding: 25px;
+        }
+
+        .menubar>li {
+            font-style: italic;
+
+        }
+
+
+        #main-navigation {
+
+            overflow: hidden;
+            height: auto;
+            width: 100%;
+            list-style: none;
+            background-color: rgb(220, 220, 220);
+            display: block;
+            border-bottom: 3px solid pink;
+        }
+
+        /* .nav-line {
+            margin: 0 3px;
+            padding: 10px;
+            width: auto;
+            height: 60px;
+            float: right;
+            text-align: center;
+
+        }
+
+        #main-menubar {
+
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            height: 100%;
+            width: 150px;
+            border-right: 2px solid black;
+            display: block;
+            border-radius: 0, 5px, 5px, 0;
+        }
+
+        .main-section {
+            margin-top: 20px;
+            padding: 10px;
+            border-bottom: 1px pink;
+            margin-top: 20px;
+
+        }
+
+        .section-item {
+            float: right;
+            padding-left: 100px;
+            width: 100%;
+        }
+
+        #time-menu-item>img {
+            padding: 50px;
+            width: 70px;
+            height: 70px;
+        }
+
+        #time-menu-item>:first-child {
+            float: left;
+        } */
+
+
+
+
+
+        #main-footer {
+            float: right;
+            text-align: right;
+            width: 100%;
+            height: auto;
+            border-top: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <!-- header -->
+        <header>
+            <div id="header">
+                <a href="#">
+                    <h1><u><em>おーい</em></u><strong>?</strong>,<u><em>おーい</em></u><strong>!</strong></h1>
+                </a>
+            </div>
+            <!-- navigation searchbar -->
+            <div id="nav">
+                <nav>
+
+                    <ul class="nav-menu">
+
+                        <li class="nav-menu-item-back" id="nav-searchbar">
+                            <input type="search">
+                            <input type="image" src="search.png.png" width="12px" height="11px"></a>
+                        </li>
+                        <li class="nav-menu-item-back">
+                            <a href="#"><img src="NicePng_home-icon-png_180453.png" width="20px" height="20px" placeholder="홈으로">
+                            </a>
+                        </li>
+                        <li class="nav-menu-item-back">
+                            <input type="date"></a>
+                        </li>
+                        <li class="nav-menu-item-back"><a href="#">
+                                <img src="nachimban.png.png" width="20px" height="20px" alt="검색"> </a></li>
+
+                        <li class="nav-menu-item-back">
+                            <a href="#"><img src="hwewon.png" width="20px" height="20px" alt=> </a>
+                        </li>
+
+
+                    </ul>
+
+                </nav>
+            </div>
+        </header>
+    </div>
+
+
+    <!-- aside menubar -->
+    <div id=aside>
+        <aside>
+            <ul class="aside-menu">
+                <li class="menubar-item"><a href="#">Home</a></li>
+                <li class="menubar-item"><a href="#">Log in</a></li>
+                <li class="menubar-item"><a href="#">주변 음식점 찾기</a></li>
+                <li class="menubar-item"><a href="#">주변 숙박시설찾기</a></li>
+                <li class="menubar-item"><a href="#">Log out</a></li>
+            </ul>
+        </aside>
+    </div>
+
+   
+
+    <!-- content -->
+    <div id="content">
+        <div>
+            <ul>
+                <li><a href="#"><img src="http://placehold.it/100x100"></a></li>
+                <li><a href="#"><img src="http://placehold.it/100x100"></a></li>
+                <li><a href="#"><img src="http://placehold.it/100x100"></a></li>
+                <li><a href="#"><img src="http://placehold.it/100x100"></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- section -->
+    <div id="section">
+        <section class=section-item>
+            <div>
+                <a href="#" id="article-item01"><img src="http://placehold.it/150x150"></a>
+                <img id="ratingbar"><img src="ratingbar.png"></a>
+            </div>
+            <div>
+                <a href="#" id="article-item02"><img src="http://placehold.it/150x150"></a>
+                <img id="ratingbar"><img src="ratingbar.png"></a>
+            </div>
+            <div>
+                <a href="#" id="article-item03"><img src="http://placehold.it/150x150"></a>
+                <img id="ratingbar"><img src="ratingbar.png"></a>
+            </div>
+            <div>
+                <a href="#" id="article-item04"><img src="http://placehold.it/150x150"></a>
+                <img id="ratingbar"><input type="radio" name="test" id="one" checked />
+                <label for="one"><i class="fa fa-star"></i></label></a>
+            </div>
+        </div>
+    </section>
+    </div>
+    <!-- rightaside -->
+    <div id="rightaside">
+
+    </div>
+
+    <!-- footer -->
+
+    <footer id="main-footer">
+        <div>
+            Project by.Team_adniel
+        </div>
+
+    </footer>
+
+
+    </div>
+
+</body>
+
+</html>
